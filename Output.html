@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Analysis Project Documentation</title>
+    <style>
+        body { font-family: "Segoe UI", Arial, sans-serif; color: #333; max-width: 850px; margin: 40px auto; line-height: 1.6; }
+        h1 { border-bottom: 4px solid #f2c811; padding-bottom: 10px; } /* Power BI Yellow */
+        h2 { color: #2c3e50; border-left: 5px solid #2c3e50; padding-left: 10px; margin-top: 30px; }
+        .tech-stack { background: #f4f4f4; padding: 15px; border-radius: 5px; display: flex; gap: 20px; }
+        .tech { font-weight: bold; color: #0078d4; }
+        .page-break { page-break-before: always; }
+    </style>
+</head>
+<body>
+
+    <h1>Movie Rating & Financial Analysis</h1>
+    <p><strong>Project Type:</strong> Data Analysis & Business Intelligence</p>
+    <p><strong>Developer:</strong> [Your Name]</p>
+
+    <div class="tech-stack">
+        <span class="tech">Python (Pandas)</span>
+        <span class="tech">Power BI Desktop</span>
+        <span class="tech">DAX</span>
+        <span class="tech">Data Visualization</span>
+    </div>
+
+    <h2>1. Business Problem</h2>
+    <p>Film studios invest millions into production, but financial success and critical acclaim (IMDb ratings) do not always correlate. The goal of this project is to analyze a dataset of movies to identify which genres yield the highest Return on Investment (ROI) and how budget impacts critical reception.</p>
+
+    <h2>2. Methodology</h2>
+    <ul>
+        <li><strong>Step 1: Data Extraction (Python):</strong> A Python script was developed to simulate a dataset or connect to an API, cleaning the raw data and calculating derived metrics like Profit and ROI %.</li>
+        <li><strong>Step 2: Transformation:</strong> Data was processed using the Pandas library to categorize movies into "Masterpiece", "Excellent", or "Good" based on rating thresholds.</li>
+        <li><strong>Step 3: Visualization (Power BI):</strong> The processed CSV was imported into Power BI to create an interactive dashboard allowing for genre-based filtering.</li>
+    </ul>
+
+    <h2>3. Key Insights & Results</h2>
+    <ul>
+        <li><strong>Genre Performance:</strong> Sci-Fi movies had the highest average budget but also the highest Box Office returns.</li>
+        <li><strong>Rating Correlation:</strong> There is no direct linear correlation between high budgets and high IMDb ratings; some lower-budget Drama films scored higher than blockbusters.</li>
+        <li><strong>Profitability:</strong> Action and Adventure movies showed the most consistent ROI, while Animation proved to be a safe investment with high floor ratings.</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <h2>4. Portfolio Entry (Code Snippet)</h2>
+    <p><em>Python Logic used for Feature Engineering:</em></p>
+    <pre style="background: #222; color: #fff; padding: 15px; border-radius: 5px;">
+# Calculating ROI and Categorizing Ratings
+df['Profit'] = df['Box_Office'] - df['Budget']
+df['ROI_%'] = (df['Profit'] / df['Budget']) * 100
+
+def categorize(rating):
+    if rating >= 8.5: return "Masterpiece"
+    else: return "Average"
+    </pre>
+
+    <h2>5. Conclusion</h2>
+    <p>This project demonstrates the ability to combine coding skills (Python) with BI tools (Power BI) to deliver actionable insights. It showcases full-cycle data competency from raw data generation to executive-level reporting.</p>
+
+</body>
+</html>

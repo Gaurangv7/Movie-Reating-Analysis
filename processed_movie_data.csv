@@ -1,0 +1,21 @@
+Movie_ID,Title,Genre,IMDb_Rating,Budget_Millions,Box_Office_Millions,Profit_Millions,ROI_Percentage,Verdict
+101,The Galaxy Wars,Sci-Fi,8.8,200,1000,800,400.0,Masterpiece
+102,Dark Knight Rises,Action,9.0,250,1081,831,332.4,Masterpiece
+103,Avengers: Endgame,Action,8.4,356,2798,2442,685.96,Excellent
+104,Inception,Sci-Fi,8.8,160,836,676,422.5,Masterpiece
+105,Titanic,Romance,7.8,200,2201,2001,1000.5,Excellent
+106,The Matrix,Sci-Fi,8.7,63,467,404,641.27,Masterpiece
+107,Interstellar,Sci-Fi,8.6,165,701,536,324.85,Masterpiece
+108,Parasite,Drama,8.6,11,263,252,2290.91,Masterpiece
+109,Joker,Drama,8.4,55,1074,1019,1852.73,Excellent
+110,Lion King,Animation,8.5,45,968,923,2051.11,Masterpiece
+111,Frozen II,Animation,7.2,150,1450,1300,866.67,Good
+112,Spider-Man,Action,7.3,160,1131,971,606.88,Good
+113,Black Panther,Action,7.3,200,1347,1147,573.5,Good
+114,Harry Potter,Fantasy,8.1,125,1342,1217,973.6,Excellent
+115,Jurassic World,Adventure,7.0,150,1671,1521,1014.0,Good
+116,Avatar,Sci-Fi,7.8,237,2923,2686,1133.33,Excellent
+117,Iron Man,Action,7.9,140,585,445,317.86,Excellent
+118,Toy Story 4,Animation,7.7,200,1073,873,436.5,Excellent
+119,Logan,Action,8.1,97,619,522,538.14,Excellent
+120,Dune,Sci-Fi,8.0,165,402,237,143.64,Excellent
